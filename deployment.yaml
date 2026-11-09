@@ -15,5 +15,6 @@ spec:
       containers:
       - name: flask-container
         image: yalingvili100/flask-hello-world:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
